@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import styles from './styles.module.css'
 
 export function LoginPage() {
@@ -30,6 +31,9 @@ export function LoginPage() {
                     </div>
                     <button className="btn btn-primary w-100 py-2" type="submit">Entrar</button>
                     <p className="mt-5 mb-3 text-body-secondary">lab365 &copy; 2024</p>
+                    <p>
+                        Não possui cadastro? <Link to="/cadastro">Cadastra-se</Link> 
+                    </p>
                 </form>
             </div>
 

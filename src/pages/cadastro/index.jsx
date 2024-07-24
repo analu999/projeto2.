@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import styles from './styles.module.css'
 
 export function CadastroPage() {
@@ -11,7 +12,7 @@ export function CadastroPage() {
                         alt="lab 365"  
                         height="57" 
                     />
-                    <h1 className="h3 mb-3 fw-normal">Cadastrar</h1>
+                    <h1 className="h3 mb-3 fw-normal">Preencha todos os campos para efetuar o cadastro.</h1>
                     
                     <div className="mb-3">
                         <label htmlFor="exampleFormControlInput1" className="form-label">Email address</label>
@@ -32,6 +33,7 @@ export function CadastroPage() {
 
                     <button className="btn btn-primary w-100 py-2" type="submit">Entrar</button>
                     <p className="mt-5 mb-3 text-body-secondary">lab365 &copy; 2024</p>
+                    <p>Já possui cadastro ? <Link to={-1}>Efetuar login</Link></p>
                 </form>
             </div>
 
