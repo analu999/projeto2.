@@ -1,0 +1,35 @@
+/* src/components/Marcadores/styles.module.css */
+.leaflet-container {
+    height: 400px; /* Define a altura do mapa */
+    width: 100%; /* Ocupa toda a largura do container */
+  }
+  
+  /* Estilo do Popup */
+  .leaflet-popup-content {
+    background-color: white; /* Fundo branco */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 5px; /* Borda arredondada */
+  }
+  
+  /* Estilo do botão dentro do Popup */
+  .leaflet-popup-content button {
+    background-color: #4CAF50; /* Verde */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px; /* Borda arredondada */
+  }
+  
+  /* Estilo do marcador */
+  .leaflet-marker-icon {
+    background-color: #f0ad4e; /* Laranja */
+    border-radius: 50%; /* Formato circular */
+    width: 15px; /* Largura do marcador */
+    height: 15px; /* Altura do marcador */
+    border: 2px solid #f0ad4e; /* Borda do marcador */
+  }

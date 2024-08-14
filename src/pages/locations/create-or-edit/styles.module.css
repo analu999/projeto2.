@@ -1,0 +1,39 @@
+/* src/pages/locations/create-or-edit/styles.module.css */
+.container {
+    padding: 20px;
+  }
+  
+  .form-label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .form-control {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    font-size: 1rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  .form-control:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.15s ease-in-out;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }

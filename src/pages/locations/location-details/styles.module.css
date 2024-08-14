@@ -1,0 +1,27 @@
+/* src/pages/locations/location-details/styles.module.css */
+.container {
+  padding: 20px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.card h5 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #333;
+}
+
+.card strong {
+  font-weight: bold;
+}

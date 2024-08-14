@@ -1,0 +1,41 @@
+/* src/components/Menu/styles.module.css */
+.menu {
+  background-color: #000;
+  color: #fff;
+  width: 200px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.menuContent {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex-grow: 1;
+}
+
+.menuContent ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menuContent li {
+  padding: 10px;
+  border-bottom: 1px solid #333;
+}
+
+.menuContent li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

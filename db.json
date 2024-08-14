@@ -1,0 +1,196 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "nome": "Francisca Pires",
+      "cpf": "826.075.939-05",
+      "data_de_nascimento": "11/07/1947",
+      "sexo": "Feminino",
+      "email": "francisca_pires@ppe.ufrj.br",
+      "senha": "qRU9KsWwOi",
+      "endereco": {
+        "cep": "88095-400",
+        "logradouro": "Rua Melvim Jones",
+        "numero": 890,
+        "bairro": "Jardim Atlântico",
+        "cidade": "Florianópolis",
+        "estado": "SC"
+      }
+    },
+    {
+      "id": "2",
+      "nome": "Bryan Nogueira",
+      "cpf": "214.415.699-95",
+      "data_de_nascimento": "24/07/1969",
+      "sexo": "Masculino",
+      "email": "bryan _nogueira@r7.com.br",
+      "senha": "t9g6yo8Zkk",
+      "endereco": {
+        "cep": "88056-390",
+        "logradouro": "Servidão dos Pássaros",
+        "numero": 723,
+        "bairro": "Cachoeira do Bom Jesus",
+        "cidade": "Florianópolis",
+        "estado": "SC"
+      }
+    },
+    {
+      "id": "3",
+      "nome": "Marlene Peixoto",
+      "cpf": "893.916.809-76",
+      "data_de_nascimento": "12/04/1998",
+      "sexo": "Feminino",
+      "email": "marlenepeixoto@habitacoes.com.br",
+      "senha": "OszLmAtP1F",
+      "endereco": {
+        "cep": "88067-410",
+        "logradouro": "Rua Antônia Camila da Lapa",
+        "numero": 691,
+        "bairro": "Pântano do Sul",
+        "cidade": "Florianópolis",
+        "estado": "SC"
+      }
+    },
+    {
+      "id": "4",
+      "nome": "Alana Vieira",
+      "cpf": "690.206.839-93",
+      "data_de_nascimento": "20/03/1998",
+      "sexo": "Feminino",
+      "email": "alana-vieira@foz.com.br",
+      "senha": "ejcc2AHASC",
+      "endereco": {
+        "cep": "88066-060",
+        "logradouro": "Rua José Elias Lopes",
+        "numero": 766,
+        "bairro": "Campeche",
+        "cidade": "Florianópolis",
+        "estado": "SC"
+      }
+    },
+    {
+      "id": "5",
+      "nome": "Elaine da Costa",
+      "cpf": "293.709.209-86",
+      "data_de_nascimento": "10/05/1962",
+      "sexo": "Feminino",
+      "email": "elaine. dacosta@policia.com",
+      "senha": "em6jsPWB8O",
+      "endereco": {
+        "cep": "88010-102",
+        "logradouro": "Rua Conselheiro Mafra",
+        "numero": 996,
+        "bairro": "Centro",
+        "cidade": "Florianópolis",
+        "estado": "SC"
+      }
+    },
+    {
+      "id": "eeef",
+      "nome": "João das Couves",
+      "cpf": "999.999.999-99",
+      "data_de_nascimento": "2019-09-09",
+      "sexo": "Masculino",
+      "email": "joao@couves.com",
+      "senha": "99999aaaaa",
+      "endereco": {
+        "cep": "99999-999",
+        "logradouro": "Rua da alma",
+        "numero": "8",
+        "bairro": "Fé",
+        "cidade": "Deus",
+        "estado": "SC"
+      }
+    }
+  ],
+  "locais": [
+    {
+      "id": "L2",
+      "nome_do_local": "Trilha do Mar",
+      "identificador_do_usuario": "2",
+      "descricao": "Trilha das ondas fortes",
+      "localizacao": {
+        "cep": "88099-102",
+        "endereco": "Rua João Cabrito",
+        "numero": 978,
+        "bairro": "Jurere",
+        "cidade": "Florianópolis",
+        "estado": "SC",
+        "latitude": -23.5789,
+        "longitude": -46.5168
+      },
+      "praticas_esportivas": [
+        "caminhar",
+        "nadar",
+        "correr",
+        "pedalar"
+      ]
+    },
+    {
+      "id": "L3",
+      "nome_do_local": "Trilha do Ar",
+      "identificador_do_usuario": "3",
+      "descricao": "Trilha do Ar Puro",
+      "localizacao": {
+        "cep": "88097-109",
+        "endereco": "Rua Melão Doce",
+        "numero": 944,
+        "bairro": "Estreito",
+        "cidade": "Florianópolis",
+        "estado": "SC",
+        "latitude": -23.5412,
+        "longitude": -46.9851
+      },
+      "praticas_esportivas": [
+        "caminhar",
+        "nadar",
+        "correr",
+        "pedalar"
+      ]
+    },
+    {
+      "id": "L4",
+      "nome_do_local": "Trilha da Terra",
+      "identificador_do_usuario": "4",
+      "descricao": "Trilha da Terra Roxa",
+      "localizacao": {
+        "cep": "88097-109",
+        "endereco": "Rua das Borboletas",
+        "numero": 999,
+        "bairro": "Cachoeira do Bom Jesus",
+        "cidade": "Florianópolis",
+        "estado": "SC",
+        "latitude": -23.8754,
+        "longitude": -46.8734
+      },
+      "praticas_esportivas": [
+        "caminhar",
+        "nadar",
+        "correr",
+        "pedalar"
+      ]
+    },
+    {
+      "id": "L5",
+      "nome_do_local": "Trilha da Água",
+      "identificador_do_usuario": "5",
+      "descricao": "Trilha da Água que Rejuvenesce",
+      "localizacao": {
+        "cep": "88097-109",
+        "endereco": "Rua da Nascente",
+        "numero": 989,
+        "bairro": "Lagoa da Conceição",
+        "cidade": "Florianópolis",
+        "estado": "SC",
+        "latitude": -23.9417,
+        "longitude": -46.1985
+      },
+      "praticas_esportivas": [
+        "caminhar",
+        "nadar",
+        "correr",
+        "pedalar"
+      ]
+    }
+  ]
+}

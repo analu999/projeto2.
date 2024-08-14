@@ -1,12 +1,11 @@
-// src/pages/dashboard/home/index.jsx 
+// src/pages/dashboard/home-without-map/index.jsx (com menu)
 import { useState, useEffect } from 'react';
 import { fetchLocations } from '../../../services/locations';
 import { fetchUsers } from '../../../services/users';
-import Map from '../../../components/Map';
 import { Menu } from '../../../components/Menu';
 import styles from './styles.module.css'
 
-export function HomePage() {
+export function HomeWithoutMapPage() {
   const [locations, setLocations] = useState([]);
   const [users, setUsers] = useState([]);
 
@@ -37,9 +36,9 @@ export function HomePage() {
   }, []);
 
   return (
-    <div className={styles.content}>
+    <div className={styles.container}>
       <Menu/>
-      <div className={styles.container}>
+      <div className={styles.content}>
         <div className="d-flex justify-content-between mb-4">
           <div className="card">
             <div className="card-body">
@@ -55,10 +54,24 @@ export function HomePage() {
           </div>
         </div>
 
-        <Map locations={locations} />
+        <div className="d-flex flex-column gap-3">
+          {locations.map((location) => (
+            <div className="card" key={location.id}>
+              <div className="card-body">
+                <h5 className="card-title">{location.nome_do_local}</h5>
+                <p className="card-text">
+                  {location.descricao}
+                  <br />
+                  <strong>Usuário:</strong>{' '}
+                  {users.find(
+                    (user) => user.id === location.identificador_do_usuario
+                  )?.nome ?? 'Usuário não encontrado'}
+                </p>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );
 } 
-
-

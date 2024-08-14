@@ -1,24 +1,93 @@
+/* src/pages/login/styles.module.css */
 .container {
-  height: 100vh;
-  width: 100%;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f8f9fa;
 }
+
 .formSignin {
-  max-width: 720px;
-  padding: 1rem;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 330px;
 }
 
-
-.formSignin input[type="email"] {
-  margin-bottom: -1px;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
+.formSignin img {
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
-.formSignin input[type="password"] {
+.formSignin h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #007bff;
+}
+
+.form-floating {
   margin-bottom: 10px;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
+}
+
+.form-floating input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  font-size: 1rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-floating label {
+  font-size: 0.8rem;
+  color: #6c757d;
+  transition: transform 0.15s ease-in-out, color 0.15s ease-in-out;
+}
+
+.form-floating input:focus,
+.form-floating input:valid {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.form-floating input:focus ~ label,
+.form-floating input:valid ~ label {
+  transform: translateY(-1.5rem) scale(0.8);
+  color: #007bff;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.formSignin p {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.formSignin a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out;
+}
+
+.formSignin a:hover {
+  color: #0056b3;
 }
